@@ -172,7 +172,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   document.addEventListener(dataSaved, function () {
-    alert("DATA SAVED");
+    console.log("DATA SAVED");
   });
 
   function loadData() {
